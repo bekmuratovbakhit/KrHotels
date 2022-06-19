@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "190910410737",
+    "project_id": "diplomwork-3ff80",
+    "storage_bucket": "diplomwork-3ff80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190910410737:android:9ff625b2951e4960ff1e50",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190910410737-n0pm48j4o3jtssj22i9h3g1oluenq2mj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbot84UYC83N2UikDnfWOXE8oloHBpgQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190910410737-n0pm48j4o3jtssj22i9h3g1oluenq2mj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

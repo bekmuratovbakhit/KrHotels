@@ -1,0 +1,85 @@
+﻿{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neo",
+        "hours": "6am - 5pm",
+        "phone": "(555) 555-4355",
+        "description": "Location #1 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          	 59.610685,
+                  42.4600098         
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Prima",
+        "hours": "9am - 4pm",
+        "phone": "(555) 555-9430",
+        "description": "Location #2 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.616631829740115,
+          42.461893180324665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Premier Lounge",
+        "hours": "10am - 8pm",
+        "phone": "(555) 555-4839",
+        "description": "Location #3 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.61627803707202,
+          42.47068940166341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Merlion",
+        "hours": "8am - 5:30pm",
+        "phone": "(555) 555-1989",
+        "description": "Location #4 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.608081461075216,
+          42.456643224364896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Мароканд",
+        "hours": "9:30am - 6pm",
+        "phone": "(555) 555-4345",
+        "description": "Location #5 description"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.610034673085536,
+          42.46466545583581
+        ]
+      }
+    }
+  ]
+}

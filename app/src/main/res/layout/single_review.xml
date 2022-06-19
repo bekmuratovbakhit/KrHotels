@@ -1,0 +1,85 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="2dp"
+    android:layout_marginLeft="@dimen/normal_y2_margin"
+    android:layout_marginRight="@dimen/normal_y2_margin"
+    android:layout_marginTop="@dimen/normal_y3_margin"
+    android:layout_marginBottom="@dimen/normal_y3_margin"
+    app:cardCornerRadius="@dimen/normal_x_margin"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Bekmuratov Bakhit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="@dimen/normal_x2_margin"
+            style="@style/CardTitle"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:layout_marginTop="@dimen/normal_y_margin"
+            android:id="@+id/single_review_author"/>
+        <TextView
+            android:text="20 April, 2019"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/single_review_author"
+            style="@style/DescSubTitle"
+            android:id="@+id/single_review_date"
+            android:layout_marginEnd="@dimen/normal_x2_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="@dimen/normal_x2_margin"
+            android:layout_marginBottom="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/single_review_author"/>
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_calendar"
+            app:layout_constraintEnd_toStartOf="@+id/single_review_date"
+            android:layout_marginRight="@dimen/normal_x_margin"
+            app:layout_constraintTop_toTopOf="@+id/single_review_date"
+            app:layout_constraintBottom_toBottomOf="@+id/single_review_date"/>
+        <TextView
+            android:text="Featuring a fitness center, Royal Grand Hotel is located in Marrakech, 400 m from Medina Center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/single_review_text"
+            app:layout_constraintTop_toBottomOf="@+id/single_review_author"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="@dimen/normal_x2_margin"
+            android:layout_marginRight="@dimen/normal_x2_margin"
+            android:layout_marginTop="@dimen/normal_x3_margin"
+            style="@style/CardSubTitle"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginRight="@dimen/normal_x2_margin"
+            app:layout_constraintTop_toBottomOf="@+id/single_review_text"
+            android:layout_marginLeft="@dimen/normal_x2_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="@dimen/normal_y3_margin"
+            android:layout_marginBottom="@dimen/normal_y_margin"
+            app:layout_constraintBottom_toBottomOf="parent">
+          <RatingBar
+              android:id="@+id/single_review_rating"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              style="@style/Widget.AppCompat.RatingBar.Small"
+              android:numStars="5"
+              android:rating="5"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

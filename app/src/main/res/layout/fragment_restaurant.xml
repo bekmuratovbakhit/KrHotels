@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.krhotels.Fragment.RestaurantFragment">
+
+    <EditText
+        android:id="@+id/et_search_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:background="@drawable/edit_text_bg"
+        />
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:animationCache="true"
+        app:shimmer_repeat_mode="restart"
+        app:shimmer_shape="radial">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/shimmer_layout" />
+            <include layout="@layout/shimmer_layout" />
+            <include layout="@layout/shimmer_layout" />
+            <include layout="@layout/shimmer_layout" />
+            <include layout="@layout/shimmer_layout" />
+
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:visibility="gone"
+        android:layout_marginBottom="?attr/actionBarSize"
+        />
+
+
+
+</LinearLayout>
+
+
+

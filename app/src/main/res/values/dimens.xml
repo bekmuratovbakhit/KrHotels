@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_elevation_press">12dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+
+    <dimen name="statusbar_size">24dp</dimen>
+
+    <dimen name="cardview_toolbar_spacer">16dp</dimen>
+
+    <dimen name="toolbar_double_height">112dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="appbar_header_height">256dp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="activity_margin_content">24dp</dimen>
+
+
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+    <dimen name="fab_bottom_margin">72dp</dimen>
+
+    <dimen name="normal_x_margin">8dp</dimen>
+    <dimen name="normal_y_margin">8dp</dimen>
+    <dimen name="normal_x2_margin">16dp</dimen>
+    <dimen name="normal_y2_margin">16dp</dimen>
+    <dimen name="normal_x3_margin">24dp</dimen>
+    <dimen name="normal_y3_margin">24dp</dimen>
+    <dimen name="normal_x4_margin">32dp</dimen>
+    <dimen name="normal_y4_margin">32dp</dimen>
+    <dimen name="normal_x5_margin">64dp</dimen>
+    <dimen name="normal_y5_margin">64dp</dimen>
+
+    <dimen name="body_text_size">19sp</dimen>
+    <dimen name="secondary_text_size">14sp</dimen>
+
+</resources>

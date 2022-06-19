@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/menu_restaurant">
+
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.krhotels.Fragment.RestaurantFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_restaurant" />
+
+    <fragment
+        android:id="@+id/menu_hotel"
+        android:name="com.example.krhotels.Fragment.HotelFragment"
+        android:label="Hotel"
+        tools:layout="@layout/fragment_hotel" />
+
+    <fragment
+        android:id="@+id/menu_restaurant"
+        android:name="com.example.krhotels.Fragment.RestaurantFragment"
+        android:label="Restaurant"
+        tools:layout="@layout/fragment_restaurant" />
+
+    <fragment
+        android:id="@+id/menu_map_restaurant"
+        android:name="com.example.krhotels.Fragment.RestaurantMapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/menu_map_hotel"
+        android:name="com.example.krhotels.Fragment.HotelMapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+
+
+
+
+
+
+
+</navigation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map_activity_framelayout"
+    android:layout_width="match_parent"
+    tools:ignore="MissingPrefix"
+    android:layout_height="match_parent"
+    tools:context="com.example.krhotels.Fragment.HotelMapFragment">
+
+
+
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        mapbox:mapbox_cameraTargetLat="42.45306"
+        mapbox:mapbox_cameraTargetLng="59.61028"
+        mapbox:mapbox_cameraTilt="48"
+        mapbox:mapbox_cameraZoom="12"
+        mapbox:mapbox_cameraZoomMin="10"
+        mapbox:mapbox_uiAttribution="false"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/map_layout_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="?attr/actionBarSize"/>
+
+</FrameLayout>
